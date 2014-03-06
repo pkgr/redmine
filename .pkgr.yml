@@ -1,4 +1,6 @@
+before_precompile: ./packaging/debian/setup.sh
 targets:
   ubuntu-precise:
     build_dependencies:
-      - libmagickwand-dev
+      - libmagickcore-dev
+
