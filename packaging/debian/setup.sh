@@ -2,4 +2,6 @@
 
 set -ex
 
-cp config/*.yml{.example,}
+for file in config/*.yml.example; do
+  cp $file config/$(basename $file .example)
+done
