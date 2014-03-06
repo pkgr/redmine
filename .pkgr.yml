@@ -1,0 +1,4 @@
+targets:
+  ubuntu-precise:
+    build_dependencies:
+      - libmagickwand-dev
