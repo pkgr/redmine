@@ -16,3 +16,5 @@ production:
   username: postgres
   password: "postgres"
 EOF
+
+sudo service postgresql start
