@@ -3,4 +3,5 @@ targets:
   ubuntu-precise:
     build_dependencies:
       - libmagickcore-dev
+      - libmagickwand-dev
 
