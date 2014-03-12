@@ -11,3 +11,5 @@ cat > config/database.yml <<EOF
 production:
   adapter: postgresql
 EOF
+
+sudo service postgresql start
