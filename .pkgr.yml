@@ -1,7 +1,7 @@
 before_precompile: ./packaging/debian/setup.sh
 targets:
-  ubuntu-precise:
+  debian-wheezy: &wheezy
     build_dependencies:
       - libmagickcore-dev
       - libmagickwand-dev
-
+  ubuntu-precise: *wheezy
